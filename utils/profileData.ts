@@ -65,7 +65,7 @@ export const profile = {
                 "company": "Princeton Computational Imaging Lab",
                 "title": "Undergraduate Summer Researcher",
                 "years": "May 2022 - August 2022",
-                "description": [""]
+                "description": []
             },
             {
                 "company": "Alpha Origin LLC",

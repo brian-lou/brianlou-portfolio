@@ -38,17 +38,17 @@ export const Header = (props) => {
         } else {
             setNavbar(false)
         }
-        for (const [key, value] of Object.entries(refs)) {
-            try {
-                let box = refs[key].current.getBoundingClientRect();
-                if (window.screenY + 120 >= box.top &&
-                    window.screenY + 120 < box.bottom) {
-                    if (current != key) setCurrent(key);
-                    return;
-                }
-            } catch (ex) {
-            }
-        };
+        // for (const [key, value] of Object.entries(refs)) {
+        //     try {
+        //         let box = refs[key].current.getBoundingClientRect();
+        //         if (window.screenY + 120 >= box.top &&
+        //             window.screenY + 120 < box.bottom) {
+        //             if (current != key) setCurrent(key);
+        //             return;
+        //         }
+        //     } catch (ex) {
+        //     }
+        // };
 
     }
 
@@ -101,8 +101,8 @@ export const Header = (props) => {
                                 "I am a Finance Enthusiast",
                                 "I am a Divison I Swimmer",
                             ]}
-                            typeSpeed={50}
-                            backSpeed={50}
+                            typeSpeed={35}
+                            backSpeed={35}
                             loop
                             smartBackspace
                         />
@@ -115,7 +115,7 @@ export const Header = (props) => {
             </div>
 
             <p className="scrolldown">
-                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                <AnchorLink offset='100' href='#about'><i className="icon-down-circle"></i></AnchorLink>
             </p>
 
         </header >

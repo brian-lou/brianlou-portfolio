@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export const MyFooter = (props) => {
     const [networks, setNetworks] = useState(null);
@@ -28,7 +29,7 @@ export const MyFooter = (props) => {
                         target="_blank"
                     ><h3>Created with NextJS</h3></a>
                 </div>
-                <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+                <div id="go-top"><AnchorLink offset='100' href='#home'><i className="icon-up-open"></i></AnchorLink></div>
             </div>
         </footer>
     </>
