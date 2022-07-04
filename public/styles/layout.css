@@ -22,9 +22,12 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-/* body {
-   background: #0f0f0f;
-} */
+body {
+   /* background: #0f0f0f; */
+   /* width: 80%;
+   text-align: center; */
+   /* align-self: center; */
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -229,6 +232,9 @@ ul#nav li.current a {
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   width: 100%;
+   margin: 0 auto;
+
 }
 
 #about a,
@@ -249,7 +255,7 @@ ul#nav li.current a {
 
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #fff;
 }
 
 #about .profile-pic {
@@ -297,6 +303,8 @@ ul#nav li.current a {
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   width: 90%;
+   margin: 0 auto;
 }
 
 #resume a,
@@ -333,17 +341,35 @@ ul#nav li.current a {
 }
 
 .education,
-.work {
+.separate {
    margin-bottom: 48px;
+   margin-top: 48px;
    padding-bottom: 24px;
+   padding-top: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
+}
+
+#resume .gpa {
+   font: 18px/24px 'librebaskerville-bold', serif;
+   color: #000000;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+
+#resume .description {
+   font: 16px/24px 'librebaskerville', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+   text-align: left;
 }
 
 #resume .info span {
@@ -1139,14 +1165,23 @@ call-to-action .button {
    border: none;
 }
 
+#activities {
+   padding-bottom: 102px;
+}
+
+#projects {
+   text-align: "center";
+   margin: 0 auto;
+}
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 96px;
+   margin-top: 96px;
+   margin-bottom: 96px;
    color: #fff;
    font-size: 14px;
    text-align: center;
@@ -1184,7 +1219,7 @@ footer .copyright li:before {
    content: "\2022";
    padding-left: 10px;
    padding-right: 10px;
-   color: #095153;
+   color: #fff;
 }
 
 footer .copyright li:first-child:before {
@@ -1193,9 +1228,14 @@ footer .copyright li:first-child:before {
 
 /* social links */
 footer .social-links {
-   margin: 18px 0 30px 0;
-   padding: 0;
+   margin: 36px 0 0 0;
+   padding: 24px;
    font-size: 30px;
+}
+
+footer h3 {
+   margin-top: 12px;
+   color: #fff;
 }
 
 footer .social-links li {

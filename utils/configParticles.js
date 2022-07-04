@@ -46,7 +46,8 @@ const particlesConfig = {
             width: 1,
         },
         collisions: {
-            enable: true,
+            enable: false,
+            mode: "bounce"
         },
         move: {
             direction: "none",

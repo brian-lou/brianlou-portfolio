@@ -2,9 +2,11 @@
 import { useEffect, useState } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
-import { MyFooter } from '../components/misc/footer';
-import { Header } from '../components/misc/header';
+import { About } from '../components/about';
+import { MyFooter } from '../components/footer';
+import { Header } from '../components/header';
 import { LoadingMessage } from '../components/misc/loading';
+import { Resume } from '../components/resume';
 import Head from '../node_modules/next/head';
 import { profile } from '../utils/profileData'
 export default function Home() {
@@ -42,6 +44,8 @@ export default function Home() {
       init={particlesInit}
       height="100vh" width="100vw" />
     <Header data={profile} />
+    <About data={profile} />
+    <Resume data={profile} />
     <MyFooter data={profile} />
   </>
   )

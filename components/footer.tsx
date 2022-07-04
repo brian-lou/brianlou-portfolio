@@ -14,19 +14,21 @@ export const MyFooter = (props) => {
     }, [props.data])
     return (<>
         <footer>
-
             <div className="row">
                 <div className="twelve columns">
                     <ul className="social-links">
                         {networks}
                     </ul>
 
+                    <ul className="copyright">
+                        <li>&copy; Copyright 2022 Brian Lou</li>
+                    </ul>
                     <a
                         href="https://nextjs.org/"
                         target="_blank"
-                    ><h2>Created with NextJS</h2></a>
-
+                    ><h3>Created with NextJS</h3></a>
                 </div>
+                <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
             </div>
         </footer>
     </>

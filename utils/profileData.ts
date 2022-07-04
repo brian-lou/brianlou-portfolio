@@ -2,184 +2,167 @@ export const profile = {
     "main": {
         "name": "Brian Lou",
         "description": "",
-        "image": "profilepic.jpg",
+        "image": "images/profilepic.jpg",
         "bio": "",
         "contactmessage": "",
-        "email": "youremailhere@gmail.com",
+        "email": "brianlou2002@gmail.com",
         "phone": "555-555-5555",
-        "github": "https://github.com/nordicgiant2/react-nice-resume",
-        "project": "https://github.com/nordicgiant2/react-nice-resume",
+        "github": "https://github.com/brian-lou",
+        "project": "https://github.com/brian-lou",
         "address": {
             "street": "(Your Street)",
             "city": "(Your City)",
             "state": "(Your State)",
             "zip": "(Your Zip/Postal Code)"
         },
-        "website": "http://www.timbakerdev.com",
-        "resumedownload": "http://timbakerdev.com",
+        "website": "https://brianlou.com",
+        "resumedownload": "https://brianlou.com",
         "social": [
             {
-                "name": "facebook",
-                "url": "https://github.com/nordicgiant2/react-nice-resume",
-                "className": "fa fa-facebook"
-            },
-            {
-                "name": "twitter",
-                "url": "http://twitter.com",
-                "className": "fa fa-twitter"
-            },
-            {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+                "url": "https://www.linkedin.com/in/brian-lou/",
                 "className": "fa fa-linkedin"
             },
             {
                 "name": "instagram",
-                "url": "http://instagram.com/tbaker_x",
+                "url": "https://www.instagram.com/brian_lou123/",
                 "className": "fa fa-instagram"
             },
             {
                 "name": "github",
-                "url": "https://github.com/nordicgiant2/react-nice-resume",
+                "url": "https://github.com/brian-lou",
                 "className": "fa fa-github"
             }
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "skillmessage": "",
         "education": [
             {
-                "school": "University?",
-                "degree": "Masters in Beer tasting",
-                "graduated": "April 2017",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "school": "Princeton University",
+                "degree": "Computer Science, B.S.E.",
+                "graduated": "September 2020 - Present",
+                "gpa": "3.86/4.0",
+                "courses": {
+                    "Computer Science": [
+                        "Algorithms and Data Structures",
+                        "Introduction to Programming Systems",
+                        "Advanced Programming Techniques",
+                        "Principles of Computer System Design",
+                        "Reasoning about Computation",
+                    ],
+                    "Math, Science, and Statistics": [
+                        "Multivariable Calculus",
+                        "Linear Algebra",
+                        "General Physics",
+                        "General Chemistry",
+                        "Fundamentals of Statistics",
+                        "Introduction to Data Science",
+                    ],
+                },
+                "description": []
             },
             {
-                "school": "School #1 Maybe College?",
-                "degree": "What did you study 101",
-                "graduated": "March 2013",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "school": "University High School",
+                "degree": "High School Diploma",
+                "graduated": "September 2017 - June 2020",
+                "gpa": "4.56 Weighted",
+                "description": [
+                    "Graduated Summa Cum Laude",
+                    "National Merit Scholar"]
             }
         ],
         "work": [
             {
-                "company": "Awesome Design Studio",
-                "title": "Senior UX God ",
-                "years": "March 2018 - Present",
+                "company": "Princeton Computational Imaging Lab",
+                "title": "Undergraduate Summer Researcher",
+                "years": "May 2022 - August 2022",
                 "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
             },
             {
-                "company": "Super Cool Studio",
-                "title": "Junior bug fixer",
-                "years": "March 2017 - February 2018",
+                "company": "Alpha Origin LLC",
+                "title": "Co-Founder",
+                "years": "Jun 2021 - Present",
                 "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
             }
         ],
         "skills": [
             {
-                "name": "Python",
-                "level": "60%"
-            },
-            {
-                "name": "VueJs",
-                "level": "55%"
-            },
-            {
-                "name": "ReactJs",
-                "level": "50%"
-            },
-            {
-                "name": "CSS",
+                "name": "Java",
                 "level": "90%"
             },
             {
-                "name": "PHP",
+                "name": "Python",
                 "level": "80%"
             },
             {
-                "name": "Swift",
+                "name": "JavaScript/TypeScript",
+                "level": "75%"
+            },
+            {
+                "name": "React",
+                "level": "60%"
+            },
+
+            {
+                "name": "HTML + CSS",
                 "level": "50%"
             },
             {
-                "name": "JAVA",
-                "level": "80%"
+                "name": "C",
+                "level": "65%"
+            },
+            {
+                "name": "Git + Linux",
+                "level": "60%"
             }
         ]
     },
-    "portfolio": {
-        "projects": [
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "01.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "02.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "03.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Resume Website",
-                "category": "A React based resume website template",
-                "image": "04.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "05.jpg",
-                "url": "http://www.smirkspace.com"
-            },
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "06.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "01.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "02.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "03.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Resume Website",
-                "category": "A React based resume website template",
-                "image": "04.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "05.jpg",
-                "url": "http://www.smirkspace.com"
-            },
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "06.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            }
-        ]
-    }
+    "projects": [
+        {
+            "title": "TigerSync",
+            "category": "A workout scheduling web app for Princeton athletes and coaches",
+            "image": "01.jpg",
+            "url": "https://tigersync.uc.r.appspot.com"
+        },
+        {
+            "title": "Skyblock Extras",
+            "category": "A Minecraft mod for Hypixel Skyblock",
+            "image": "02.jpg",
+            "url": "http://skyblockextras.com"
+        },
+        {
+            "title": "Personal Homepage",
+            "category": "A personal homepage built using React and NextJS",
+            "image": "03.jpg",
+            "url": "https://brianlou.com"
+        },
+    ],
+    "activities": [
+        {
+            "name": "Princeton University’s Men’s Swimming and Diving Team",
+            "title": "Member",
+            "years": "2020 - Present",
+            "description": "Qualified for the 2020/2021 Tokyo Olympic Swimming Trials"
+        },
+        {
+            "name": "University High School Men’s Swimming and Diving Team",
+            "title": "Team Captain",
+            "years": "2017 - 2020",
+            "description": "High School Student-Athlete of the year - 2020"
+        },
+        {
+            "name": "University High School Math Club",
+            "title": "Member",
+            "years": "2017 - 2020",
+            "description": "AIME Qualifier - 2020"
+        },
+        {
+            "name": "University High School Physics Club",
+            "title": "Secretary",
+            "years": "2019 - 2020",
+            "description": ""
+        },
+    ]
+
 };

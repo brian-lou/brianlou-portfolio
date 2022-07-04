@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import Particles from 'react-tsparticles';
 import Typed from "react-typed"
-import { LoadingMessage } from './loading';
+import { LoadingMessage } from './misc/loading';
 import { loadFull } from 'tsparticles';
 export const Header = (props) => {
 
@@ -13,9 +13,6 @@ export const Header = (props) => {
     const [networks, setNetworks] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const particlesInit = async (main) => {
-        await loadFull(main);
-    };
     useEffect(() => {
         if (props != null && props.data != null) {
             setName(props.data.main.name);
@@ -42,7 +39,8 @@ export const Header = (props) => {
                     <li><a className="smoothscroll" href="#education">Education</a></li>
                     <li><a className="smoothscroll" href="#work">Work Experience</a></li>
                     <li><a className="smoothscroll" href="#projects">Projects</a></li>
-                    <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                    <li><a className="smoothscroll" href="#skills">Skills</a></li>
+                    <li><a className="smoothscroll" href="#activities">Activities</a></li>
                 </ul>
 
             </nav>
@@ -65,8 +63,6 @@ export const Header = (props) => {
                     <hr />
                     <ul className="social">
                         {networks}
-                        {/* <li key={"GitHub"}><a href={"https://github.com/brianlou2024/"}><i className={"fa fa-github"}></i></a></li>
-                        <li key={"Instagram"}><a href={"https://google.com"}><i className={"fa fa-instagram"}></i></a></li> */}
                     </ul>
                 </div>
             </div>
