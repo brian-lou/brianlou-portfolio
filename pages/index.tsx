@@ -1,5 +1,6 @@
 
-import { useEffect, useState } from 'react';
+import Script from 'next/script';
+import { useEffect, useRef, useState } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { About } from '../components/about';
@@ -13,7 +14,16 @@ export default function Home() {
 
   const [profile, setProfile] = useState('');
   const [loading, setLoading] = useState(true);
-
+  const [current, setCurrent] = useState('');
+  const [refs, setRefs] = useState({
+    "home": useRef(),
+    "about": useRef(),
+    "education": useRef(),
+    "work": useRef(),
+    "projects": useRef(),
+    "skills": useRef(),
+    "activities": useRef(),
+  });
   const particlesInit = async (main) => {
     await loadFull(main);
   };
@@ -33,7 +43,6 @@ export default function Home() {
   }, []);
 
   if (loading || typeof window == 'undefined') return <LoadingMessage />
-
   return (<>
     <Head>
       <title>Brian Lou</title>
@@ -43,9 +52,9 @@ export default function Home() {
       id="tsparticles" url="api/particles"
       init={particlesInit}
       height="100vh" width="100vw" />
-    <Header data={profile} />
-    <About data={profile} />
-    <Resume data={profile} />
+    <Header data={profile} current={current} setCurrent={setCurrent} refs={refs} />
+    <About data={profile} setCurrent={setCurrent} refs={refs} />
+    <Resume data={profile} setCurrent={setCurrent} refs={refs} />
     <MyFooter data={profile} />
   </>
   )

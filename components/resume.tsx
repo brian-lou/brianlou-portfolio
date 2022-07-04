@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { LoadingMessage } from "./misc/loading";
 import chroma from 'chroma-js';
-import Zmage from "react-zmage";
 
 export const Resume = (props) => {
 
@@ -12,6 +11,7 @@ export const Resume = (props) => {
     const [projects, setProjects] = useState([]);
     const [activities, setActivities] = useState([]);
     const [loading, setLoading] = useState(true);
+    const refs = props.refs;
     const getColor = (width: String) => {
         let ratio = parseInt(width.replace("%", "")) / 100.0;
         const f = chroma.scale(['red', 'orange', 'yellow', 'green']);
@@ -29,17 +29,25 @@ export const Resume = (props) => {
                     <p className="gpa">GPA: {education.gpa}</p>
 
                     {education.description.map(element => {
-                        { return <p className="description">{element}</p> }
+                        { return <p className=""><span>&bull; </span>{element}</p> }
                     })}
-                    {(education.courses != null) && (<>
-                        <p className="bold">Computer Science Courses: </p></>
+                    {(education.courses != null) && (
+                        Object.keys(education.courses).map(function (key) {
+                            return (<div key={key}>
+                                <p className="bold">{key}</p>
+                                <p>{education.courses[key]}</p>
+                            </div>)
+                        })
+
                     )}
                 </div >
             }));
             setWork(data.work.map(function (work) {
                 return <div key={work.company}><h3>{work.company}</h3>
                     <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-                    <p>{work.description}</p>
+                    {Object.keys(work.description).map(function (key) {
+                        return (<p>&bull; {work.description[key]}</p>)
+                    })}
                 </div>
             }));
             setSkills(data.skills.map(function (skills) {
@@ -51,20 +59,24 @@ export const Resume = (props) => {
                     <em>{skills.name}</em>
                 </li>
             }))
-            setLoading(false);
         }
         if (projects) {
-            let id = 0;
             setProjects(projects.map(function (projects) {
-                let projectImage = "images/portfolio/" + projects.image;
-
-                return (
-                    <div key={id++} className="columns portfolio-item">
-                        <div className="item-wrap">
-                            {/* <Zmage alt={projects.title} src={projectImage} /> */}
-                            <div style={{ textAlign: "center" }}>{projects.title}</div>
-                        </div>
+                let projectImage = "images/projects/" + projects.image;
+                return (<div key={projects.title} className="columns portfolio-item">
+                    <div className="item-wrap">
+                        <a href={projects.url} title={projects.title}>
+                            <img alt={projects.title} src={projectImage} />
+                            <div className="overlay">
+                                <div className="portfolio-item-meta">
+                                    <h5>{projects.title}</h5>
+                                    <p>{projects.category}</p>
+                                </div>
+                            </div>
+                            <div className="link-icon"><i className="fa fa-link"></i></div>
+                        </a>
                     </div>
+                </div>
                 );
             }));
         }
@@ -73,18 +85,22 @@ export const Resume = (props) => {
                 return (
                     <div key={activities.name}><h3>{activities.name}</h3>
                         <p className="info">{activities.title}<span>&bull;</span> <em className="date">{activities.years}</em></p>
-                        <p>{activities.description}</p>
+                        {Object.keys(activities.description).map(function (key) {
+                            return (
+                                <p>{activities.description[key]}</p>)
+                        })}
                     </div>
                 );
             }));
         }
+        setLoading(false);
     }, [props.data]);
 
     if (loading || typeof window == 'undefined') return <LoadingMessage />
     return (
-        <section id="resume">
+        <section id="resume" >
 
-            <div className="row education">
+            <div id="education" className="row education" ref={refs["education"]}>
                 <div className="three columns header-col">
                     <h1><span>Education</span></h1>
                 </div>
@@ -99,7 +115,7 @@ export const Resume = (props) => {
             </div>
 
 
-            <div className="row separate">
+            <div id="work" className="row separate" ref={refs["work"]}>
 
                 <div className="three columns header-col">
                     <h1><span>Work Experience</span></h1>
@@ -110,19 +126,19 @@ export const Resume = (props) => {
                 </div>
             </div>
 
-            <div className="row separate">
+            <section id="projects" ref={refs["projects"]}>
+                <div className="row">
+                    <div className="twelve columns collapsed">
+                        <h1>Projects</h1>
 
-                <div className="three columns header-col">
-                    <h1><span>Projects</span></h1>
+                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                            {projects}
+                        </div>
+                    </div>
                 </div>
-                <div className="nine columns"></div>
-                <div className="three columns"></div>
-                <div className="nine columns main-col">
-                    {projects}
-                </div>
-            </div>
+            </section>
 
-            <div className="row separate">
+            <div id="skills" className="row separate" ref={refs["skills"]}>
 
                 <div className="three columns header-col">
                     <h1><span>Skills</span></h1>
@@ -140,7 +156,7 @@ export const Resume = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="row separate activities">
+            <div id="activities" className="row separate activities" ref={refs["activities"]}>
 
                 <div className="three columns header-col">
                     <h1><span>Activities</span></h1>

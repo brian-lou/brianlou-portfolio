@@ -330,6 +330,7 @@ ul#nav li.current a {
 
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   margin-top: 20px;
 }
 
 #resume .header-col {
@@ -374,7 +375,7 @@ ul#nav li.current a {
 
 .bold {
    font: 16px/24px 'librebaskerville-bold', serif;
-   color: #6E7881;
+   color: #383c3f;
    text-align: left;
 }
 
@@ -612,6 +613,8 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   width: 100%;
+   max-width: 600px;
 }
 
 .portfolio-item .portfolio-item-meta {

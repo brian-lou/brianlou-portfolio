@@ -3,17 +3,17 @@ export const profile = {
         "name": "Brian Lou",
         "description": "",
         "image": "images/profilepic.jpg",
-        "bio": "",
+        "bio": "I am a rising junior studying Computer Science at Princeton University. I enjoy learning about new technologies and I am eager to obtain a summer internship to further develop my skills.",
         "contactmessage": "",
         "email": "brianlou2002@gmail.com",
-        "phone": "555-555-5555",
+        "phone": "",
         "github": "https://github.com/brian-lou",
         "project": "https://github.com/brian-lou",
         "address": {
-            "street": "(Your Street)",
-            "city": "(Your City)",
-            "state": "(Your State)",
-            "zip": "(Your Zip/Postal Code)"
+            "street": "",
+            "city": "",
+            "state": "",
+            "zip": ""
         },
         "website": "https://brianlou.com",
         "resumedownload": "https://brianlou.com",
@@ -44,21 +44,9 @@ export const profile = {
                 "graduated": "September 2020 - Present",
                 "gpa": "3.86/4.0",
                 "courses": {
-                    "Computer Science": [
-                        "Algorithms and Data Structures",
-                        "Introduction to Programming Systems",
-                        "Advanced Programming Techniques",
-                        "Principles of Computer System Design",
-                        "Reasoning about Computation",
-                    ],
-                    "Math, Science, and Statistics": [
-                        "Multivariable Calculus",
-                        "Linear Algebra",
-                        "General Physics",
-                        "General Chemistry",
-                        "Fundamentals of Statistics",
-                        "Introduction to Data Science",
-                    ],
+                    "Computer Science Courses:": "Algorithms and Data Structures, Introduction to Programming Systems, Advanced Programming Techniques, Principles of Computer System Design, Reasoning about Computation",
+                    "Math, Science, and Statistics Courses:": "Multivariable Calculus, Linear Algebra, General Physics, General Chemistry, Fundamentals of Statistics, Introduction to Data Science",
+                    "Economics and Finance Courses:": "Introduction to Microeconomics, Corporate Finance",
                 },
                 "description": []
             },
@@ -77,13 +65,19 @@ export const profile = {
                 "company": "Princeton Computational Imaging Lab",
                 "title": "Undergraduate Summer Researcher",
                 "years": "May 2022 - August 2022",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "description": [""]
             },
             {
                 "company": "Alpha Origin LLC",
                 "title": "Co-Founder",
                 "years": "Jun 2021 - Present",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "description":
+                    ["Manages the daily operation of this online game apps development company",
+                        "Multiple roles as a software developer, sales, marketing, and customer support",
+                        "Frontend and backend web development experience",
+                        "Products are coded in Java and downloadable as a JAR",
+                        "Company has 40,000 customers from 30+ countries",
+                        "50k+ API requests daily, 100k+ DB requests daily"]
             }
         ],
         "skills": [
@@ -121,21 +115,27 @@ export const profile = {
     "projects": [
         {
             "title": "TigerSync",
-            "category": "A workout scheduling web app for Princeton athletes and coaches",
-            "image": "01.jpg",
+            "category": "A workout scheduling web app for Princeton athletes and coaches. Built using React and NextJS",
+            "image": "tigersync.jpg",
             "url": "https://tigersync.uc.r.appspot.com"
-        },
-        {
-            "title": "Skyblock Extras",
-            "category": "A Minecraft mod for Hypixel Skyblock",
-            "image": "02.jpg",
-            "url": "http://skyblockextras.com"
         },
         {
             "title": "Personal Homepage",
             "category": "A personal homepage built using React and NextJS",
-            "image": "03.jpg",
+            "image": "temp.jpg",
             "url": "https://brianlou.com"
+        },
+        {
+            "title": "Skyblock Extras",
+            "category": "A Minecraft mod for Hypixel Skyblock",
+            "image": "sbebanner.png",
+            "url": "http://skyblockextras.com"
+        },
+        {
+            "title": "Skyblock Extras Website",
+            "category": "Custom coded light-weight website for Skyblock Extras. Created with HTML, CSS, and Java Servlets",
+            "image": "sbewebsite.png",
+            "url": "http://skyblockextras.com"
         },
     ],
     "activities": [
@@ -143,25 +143,27 @@ export const profile = {
             "name": "Princeton University’s Men’s Swimming and Diving Team",
             "title": "Member",
             "years": "2020 - Present",
-            "description": "Qualified for the 2020/2021 Tokyo Olympic Swimming Trials"
+            "description": [
+                "Qualified for the 2020/2021 Tokyo Olympic Swimming Trials",
+                "2022 Scholar All-American"]
         },
         {
             "name": "University High School Men’s Swimming and Diving Team",
             "title": "Team Captain",
             "years": "2017 - 2020",
-            "description": "High School Student-Athlete of the year - 2020"
+            "description": ["High School Student-Athlete of the year - 2020"]
         },
         {
             "name": "University High School Math Club",
             "title": "Member",
             "years": "2017 - 2020",
-            "description": "AIME Qualifier - 2020"
+            "description": ["AIME Qualifier - 2020"]
         },
         {
             "name": "University High School Physics Club",
             "title": "Secretary",
             "years": "2019 - 2020",
-            "description": ""
+            "description": [""]
         },
     ]
 
