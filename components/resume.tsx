@@ -31,46 +31,9 @@ export const Resume = (props) => {
                     {education.description.map(element => {
                         { return <p className="description">{element}</p> }
                     })}
-                    {(education.courses != null) && (
-                        <h4>Related Course Work</h4>) && (
-                            // Object.keys(education.courses).forEach(group => {
-                            //     {
-                            //         return <div key={group}>
-                            //             <div className="three columns">
-                            //                 <span>{group}</span>
-                            //             </div>
-                            //             <div className="nine columns">
-                            //                 <div className="row item">
-                            //                     <div className="twelve columns">
-                            //                         {education.courses[group].map(course => {
-                            //                             {
-                            //                                 return <p key={course}>{course}</p>
-                            //                             }
-                            //                         })}
-                            //                     </div>
-                            //                 </div>
-                            //             </div></div>
-                            //     }
-                            // })
-                            <div>
-                                <div className="three columns">
-                                    <span>Computer Science</span>
-                                </div>
-                                <div className="nine columns courses">
-                                    <div className="row item">
-                                        <div className="twelve columns">
-                                            <p>
-                                                {education.courses["Computer Science"].map(course => {
-                                                    {
-                                                        return <span>{course}</span>
-                                                    }
-                                                })}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
+                    {(education.courses != null) && (<>
+                        <p className="bold">Computer Science Courses: </p></>
+                    )}
                 </div >
             }));
             setWork(data.work.map(function (work) {

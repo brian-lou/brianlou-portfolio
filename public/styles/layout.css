@@ -372,6 +372,12 @@ ul#nav li.current a {
    text-align: left;
 }
 
+.bold {
+   font: 16px/24px 'librebaskerville-bold', serif;
+   color: #6E7881;
+   text-align: left;
+}
+
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -1173,6 +1179,7 @@ call-to-action .button {
    text-align: "center";
    margin: 0 auto;
 }
+
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
