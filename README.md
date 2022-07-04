@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Personal Homepage for my resume and projects. Used some parts of https://github.com/nordicgiant2/react-nice-resume and https://github.com/tbakerx/react-resume-template
