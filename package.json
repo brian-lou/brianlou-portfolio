@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "deploy": "git push heroku main"
+    "start": "next start -p 8080",
+    "deploy": "next build && gcloud app deploy --project brian-portfolio-355400"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
