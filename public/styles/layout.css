@@ -35,8 +35,8 @@ body {
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: 950px;
+   min-height: 600px;
    width: 100%;
    text-align: center;
    overflow: hidden;
@@ -232,7 +232,7 @@ ul#nav li.current a {
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
-   width: 100%;
+   width: 90%;
    margin: 0 auto;
 
 }
@@ -353,7 +353,7 @@ ul#nav li.current a {
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #383c3f;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -367,7 +367,7 @@ ul#nav li.current a {
 
 #resume .description {
    font: 16px/24px 'librebaskerville', serif;
-   color: #6E7881;
+   color: #383c3f;
    margin-bottom: 18px;
    margin-top: 9px;
    text-align: left;
@@ -375,7 +375,7 @@ ul#nav li.current a {
 
 .bold {
    font: 16px/24px 'librebaskerville-bold', serif;
-   color: #383c3f;
+   color: #000000;
    text-align: left;
 }
 
@@ -529,19 +529,19 @@ ul#nav li.current a {
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#projects {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 
-#portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+#projects h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
 }
 
 /* Portfolio Content */

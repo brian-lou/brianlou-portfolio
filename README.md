@@ -1,1 +1,1 @@
-Personal Homepage for my resume and projects. Used some parts of https://github.com/nordicgiant2/react-nice-resume and https://github.com/tbakerx/react-resume-template
+Personal Homepage for my resume and projects. Adapted and modified CSS from https://github.com/nordicgiant2/react-nice-resume and https://github.com/tbakerx/react-resume-template

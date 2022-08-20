@@ -26,7 +26,7 @@ export const Resume = (props) => {
             setEducation(data.education.map(function (education) {
                 return <div key={education.school}><h3>{education.school}</h3>
                     <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-                    <p className="gpa">GPA: {education.gpa}</p>
+                    {/* <p className="gpa">GPA: {education.gpa}</p> */}
 
                     {education.description.map(element => {
                         { return <p className=""><span>&bull; </span>{element}</p> }
@@ -34,7 +34,7 @@ export const Resume = (props) => {
                     {(education.courses != null) && (
                         Object.keys(education.courses).map(function (key) {
                             return (<div key={key}>
-                                <p className="bold">{key}</p>
+                                <p className="bold">&bull; {key}</p>
                                 <p>{education.courses[key]}</p>
                             </div>)
                         })

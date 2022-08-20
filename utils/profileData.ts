@@ -65,7 +65,9 @@ export const profile = {
                 "company": "Princeton Computational Imaging Lab",
                 "title": "Undergraduate Summer Researcher",
                 "years": "May 2022 - August 2022",
-                "description": []
+                "description":
+                    ["Worked with Colgate on generating novel views from real-world images using Neural Radiance Fields (NeRF)",
+                        "Helped setup data collection software on an autonomous driving research car"]
             },
             {
                 "company": "Alpha Origin LLC",
@@ -76,8 +78,8 @@ export const profile = {
                         "Multiple roles as a software developer, sales, marketing, and customer support",
                         "Frontend and backend web development experience",
                         "Products are coded in Java and downloadable as a JAR",
-                        "Company has 40,000 customers from 30+ countries",
-                        "50k+ API requests daily, 100k+ DB requests daily"]
+                        "Company has 50,000 customers from 30+ countries",
+                        "150k+ Daily API Requests"]
             }
         ],
         "skills": [
@@ -87,29 +89,28 @@ export const profile = {
             },
             {
                 "name": "Python",
-                "level": "80%"
+                "level": "85%"
             },
             {
                 "name": "JavaScript/TypeScript",
                 "level": "75%"
             },
             {
-                "name": "React",
-                "level": "60%"
+                "name": "React + NextJS",
+                "level": "65%"
             },
-
+            {
+                "name": "Git + Linux",
+                "level": "70%"
+            },
             {
                 "name": "HTML + CSS",
                 "level": "50%"
             },
             {
                 "name": "C",
-                "level": "65%"
-            },
-            {
-                "name": "Git + Linux",
                 "level": "60%"
-            }
+            },
         ]
     },
     "projects": [
@@ -122,19 +123,19 @@ export const profile = {
         {
             "title": "Personal Homepage",
             "category": "A personal homepage built using React and NextJS",
-            "image": "temp.jpg",
+            "image": "homepage.jpg",
             "url": "https://brianlou.com"
         },
         {
             "title": "Skyblock Extras",
-            "category": "A Minecraft mod for Hypixel Skyblock",
+            "category": "A Minecraft mod for Hypixel Skyblock, coded in Java",
             "image": "sbebanner.png",
             "url": "http://skyblockextras.com"
         },
         {
             "title": "Skyblock Extras Website",
             "category": "Custom coded light-weight website for Skyblock Extras. Created with HTML, CSS, and Java Servlets",
-            "image": "sbewebsite.png",
+            "image": "sbewebsite.jpg",
             "url": "http://skyblockextras.com"
         },
     ],
