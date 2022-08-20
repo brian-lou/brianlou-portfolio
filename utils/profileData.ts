@@ -109,7 +109,7 @@ export const profile = {
             },
             {
                 "name": "C",
-                "level": "60%"
+                "level": "65%"
             },
         ]
     },
