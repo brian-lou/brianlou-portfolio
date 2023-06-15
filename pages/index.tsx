@@ -47,6 +47,7 @@ export default function Home() {
     <Head>
       <title>Brian Lou</title>
       <link rel="icon" href="/favicon.ico" />
+      <meta name="robots" content="noindex"></meta>
     </Head>
     <Particles
       id="tsparticles" url="api/particles"

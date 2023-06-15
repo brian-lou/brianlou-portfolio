@@ -98,8 +98,7 @@ export const Header = (props) => {
                             strings={[
                                 "I am a Computer Science Student",
                                 "I am a Software Engineer",
-                                "I am a Finance Enthusiast",
-                                "I am a Divison I Swimmer",
+                                "I am an Entrepreneur",
                             ]}
                             typeSpeed={35}
                             backSpeed={35}
