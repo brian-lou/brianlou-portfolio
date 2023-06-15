@@ -66,8 +66,7 @@ export const profile = {
                 "title": "Software Engineer Intern",
                 "years": "May 2023 - Present",
                 "description":
-                    ["Worked closely with the site reliability team to ensure near 100% uptime of AWS instances",
-                        "Developed internal full-stack app using Flask, Vue.js, and PostgreSQL to streamline CI/CD Jenkins workflows"]
+                    ["Worked on the site reliability team to ensure robust CI/CD workflows and near 100% uptime of AWS instances"]
             },
             {
                 "company": "Princeton Computational Imaging Lab",
