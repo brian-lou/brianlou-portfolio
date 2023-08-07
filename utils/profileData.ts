@@ -79,14 +79,14 @@ export const profile = {
             {
                 "company": "Alpha Origin LLC",
                 "title": "Co-Founder and Software Engineer",
-                "years": "Jun 2021 - Present",
+                "years": "June 2021 - Present",
                 "description":
                     ["Manages the daily operation of this online game apps development company",
                         "Multiple roles as a software developer, sales, marketing, and customer support",
                         "Frontend and backend web development experience",
                         "Products are coded in Java and downloadable as a JAR",
-                        "Company has 60,000 customers from 30+ countries",
-                        "150k+ Daily API Requests"]
+                        "Company has 70,000 customers from 30+ countries",
+                        "900k+ Daily API Requests"]
             }
         ],
         "skills": [
@@ -160,11 +160,11 @@ export const profile = {
     ],
     "activities": [
         {
-            "name": "Princeton University ACM: ICPC Competitive Programming",
+            "name": "Princeton University ACM",
             "title": "Member",
             "years": "2022 - Present",
             "description": [
-                "Regularly attended weekly contests",
+                "Regularly attended weekly competitive programming contests",
                 "Competed at the Greater NY Regional Contest"]
         },
         {
