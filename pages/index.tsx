@@ -45,7 +45,7 @@ export default function Home() {
   if (loading || typeof window == 'undefined') return <LoadingMessage />
   return (<>
     <Head>
-      <title>Brian Lou</title>
+      <title>Brian Lou's Portfolio</title>
       <link rel="icon" href="/favicon.ico" />
       <meta name="robots" content="noindex"></meta>
     </Head>

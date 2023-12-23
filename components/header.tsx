@@ -17,7 +17,7 @@ export const Header = (props) => {
 
     useEffect(() => {
         if (props != null && props.data != null) {
-            setName(props.data.main.name);
+            setName(props.data.main.nickname);
             setOccupation(props.data.main.occupation);
             setDescription(props.data.main.description);
             setCity(props.data.main.address.city);

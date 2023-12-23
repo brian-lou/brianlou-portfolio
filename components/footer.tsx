@@ -22,7 +22,7 @@ export const MyFooter = (props) => {
                     </ul>
 
                     <ul className="copyright">
-                        <li>&copy; Copyright 2022 Brian Lou</li>
+                        <li>&copy; Copyright 2023 Brian Lou</li>
                     </ul>
                     <a
                         href="https://nextjs.org/"

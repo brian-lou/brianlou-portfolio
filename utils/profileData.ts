@@ -1,9 +1,10 @@
 export const profile = {
     "main": {
         "name": "Brian Lou",
+        "nickname": "Brian",
         "description": "",
         "image": "images/profpic.png",
-        "bio": "I am a rising senior studying Computer Science at Princeton University. I am very intellectually curious and enjoy learning about new technologies and breakthroughs in various fields. I am particularly interested in Computer Vision and Natural Language Processing, with a focus on Neural Rendering.",
+        "bio": "I am a senior studying Computer Science at Princeton University. I am very intellectually curious and enjoy learning about new technologies and breakthroughs in various fields. I am particularly interested in Computer Vision and Natural Language Processing, as well as the intersection of AI and Augmented Reality.",
         "contactmessage": "",
         "email": "brianlou2002@gmail.com",
         "phone": "",
@@ -24,11 +25,6 @@ export const profile = {
                 "className": "fa fa-linkedin"
             },
             {
-                "name": "instagram",
-                "url": "https://www.instagram.com/brian_lou123/",
-                "className": "fa fa-instagram"
-            },
-            {
                 "name": "github",
                 "url": "https://github.com/brianlou2024",
                 "className": "fa fa-github"
@@ -44,7 +40,7 @@ export const profile = {
                 "graduated": "September 2020 - Present",
                 "gpa": "3.91/4.0",
                 "courses": {
-                    "Computer Science Courses:": "Algorithms and Data Structures, Natural Language Processing, Computer Vision, Intro to Machine Learning, Intro to Programming Systems, Advanced Programming Techniques, Economics and Computing",
+                    "Computer Science Courses:": "Algorithms and Data Structures, Natural Language Processing, Computer Vision, Intro to Machine Learning, Intro to Programming Systems, Advanced Programming Techniques, Economics and Computing, Computer Graphics, Human-Computer Interaction",
                     "Math, Science, and Statistics Courses:": "Multivariable Calculus, Linear Algebra, General Physics, General Chemistry, Fundamentals of Statistics, Introduction to Data Science",
                     "Economics and Finance Courses:": "Introduction to Microeconomics, Corporate Finance",
                 },
@@ -156,6 +152,12 @@ export const profile = {
             "category": "A Computer Vision project focused on investigating more efficient frame sampling strategies for the task of video action recognition",
             "image": "cv.png",
             "url": "https://github.com/tanushreebanerjee/cos429-final-project"
+        },
+        {
+            "title": "Maze-Man",
+            "category": "An isometric Pacman inspired game developed using Three.js",
+            "image": "mazeman.png",
+            "url": "https://github.com/brian-lou/MazeMan"
         },
     ],
     "activities": [
