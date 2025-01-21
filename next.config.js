@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+import { initGT } from 'gt-next/config'
 
-module.exports = nextConfig
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  }
+}
+
+const withGT = initGT({
+    defaultLocale: "en-US",
+    locales: ["en-US", "fr", "es", "de", "ja", "zh"]
+});
+
+// Combine the configs and use export default instead of module.exports
+export default withGT(nextConfig);

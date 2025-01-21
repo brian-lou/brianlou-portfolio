@@ -1,0 +1,9 @@
+{
+  "options": "./gt.config.json",
+  "projectId": "79daa6f6-a63a-4335-8955-4dbbf9686f7b",
+  "jsconfig": "./tsconfig.json",
+  "replace": false,
+  "inline": true,
+  "retranslate": false,
+  "baseUrl": "https://api.gtx.dev"
+}

@@ -3,12 +3,18 @@ runtime: nodejs18
 instance_class: F1
 service: default
 inbound_services:
-- warmup
+  - warmup
 automatic_scaling:
-    min_idle_instances: 1
-    min_instances: 1
-    max_idle_instances: 1
-    max_instances: 1
+  min_idle_instances: 1
+  min_instances: 1
+  max_idle_instances: 1
+  max_instances: 1
+
+# Add this section to use secrets
+env_variables:
+  GT_API_KEY: ${sm://gt_api_key}
+  GT_PROJECT_ID: ${sm://gt_project_id}
+
 handlers:
   - url: /.*
     secure: always
