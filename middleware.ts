@@ -1,8 +1,7 @@
 import { createNextMiddleware } from "gt-next/middleware";
 
 export default createNextMiddleware({
-  defaultLocale: "en-US",
-  locales: ["en-US", "fr", "es", "de", "ja", "zh"],
+  prefixDefaultLocale: true,
 });
 
 export const config = {

@@ -9,7 +9,7 @@ const nextConfig = {
 
 const withGT = initGT({
     defaultLocale: "en-US",
-    locales: ["en-US", "fr", "es", "de", "ja", "zh"]
+    locales: ["en-US", "fr", "es", "zh"]
 });
 
 // Combine the configs and use export default instead of module.exports
