@@ -1,13 +1,9 @@
 {
   "projectId": "8397e1e4-2018-4aad-a9a5-ba1c47bbfab2",
   "remoteCache": false,
-  "runtimeTranslations": false,
+  "runtimeTranslation": false,
   "defaultLocale": "en-US",
-  "locales": [
-    "fr",
-    "es",
-    "zh"
-  ],
+  "locales": ["fr", "es", "zh"],
   "_versionId": "9c2c7d13a7189603a792386944d8d12f3e7559dcd0f4e43cdf5a4b30d1044424",
-  "localTranslations": true
+  "localTranslation": true
 }
