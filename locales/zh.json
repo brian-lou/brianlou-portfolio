@@ -1,0 +1,734 @@
+{
+  "footer": {
+    "type": "div",
+    "props": {
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "children": [
+              {
+                "type": "ul",
+                "props": {
+                  "children": {
+                    "id": 4,
+                    "key": "_gt_value_4",
+                    "variable": "variable"
+                  },
+                  "data-_gt": {
+                    "id": 3
+                  }
+                }
+              },
+              {
+                "type": "ul",
+                "props": {
+                  "children": {
+                    "type": "li",
+                    "props": {
+                      "children": "© 版权所有 2025 Brian Lou",
+                      "data-_gt": {
+                        "id": 6
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 5
+                  }
+                }
+              },
+              {
+                "type": "a",
+                "props": {
+                  "children": {
+                    "type": "h3",
+                    "props": {
+                      "children": "使用 NextJS 创建",
+                      "data-_gt": {
+                        "id": 8
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 7
+                  }
+                }
+              }
+            ],
+            "data-_gt": {
+              "id": 2
+            }
+          }
+        },
+        {
+          "type": "div",
+          "props": {
+            "children": {
+              "type": "AnchorLink",
+              "props": {
+                "children": {
+                  "type": "i",
+                  "props": {
+                    "data-_gt": {
+                      "id": 11
+                    }
+                  }
+                },
+                "data-_gt": {
+                  "id": 10
+                }
+              }
+            },
+            "data-_gt": {
+              "id": 9
+            }
+          }
+        }
+      ],
+      "data-_gt": {
+        "id": 1
+      }
+    }
+  },
+  "header": [
+    {
+      "type": "nav",
+      "props": {
+        "children": [
+          {
+            "type": "a",
+            "props": {
+              "children": "显示导航",
+              "data-_gt": {
+                "id": 2
+              }
+            }
+          },
+          {
+            "type": "a",
+            "props": {
+              "children": "隐藏导航",
+              "data-_gt": {
+                "id": 3
+              }
+            }
+          },
+          {
+            "type": "ul",
+            "props": {
+              "children": [
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "首页",
+                        "data-_gt": {
+                          "id": 6
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 5
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "关于",
+                        "data-_gt": {
+                          "id": 8
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 7
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "教育经历",
+                        "data-_gt": {
+                          "id": 10
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 9
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "工作经验",
+                        "data-_gt": {
+                          "id": 12
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 11
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "项目",
+                        "data-_gt": {
+                          "id": 14
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 13
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "技能",
+                        "data-_gt": {
+                          "id": 16
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 15
+                    }
+                  }
+                },
+                {
+                  "type": "li",
+                  "props": {
+                    "children": {
+                      "type": "AnchorLink",
+                      "props": {
+                        "children": "活动",
+                        "data-_gt": {
+                          "id": 18
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 17
+                    }
+                  }
+                }
+              ],
+              "data-_gt": {
+                "id": 4
+              }
+            }
+          }
+        ],
+        "data-_gt": {
+          "id": 1
+        }
+      }
+    },
+    {
+      "type": "div",
+      "props": {
+        "children": {
+          "type": "div",
+          "props": {
+            "children": [
+              {
+                "type": "h1",
+                "props": {
+                  "children": [
+                    "你好！我是 ",
+                    {
+                      "id": 22,
+                      "key": "_gt_value_22",
+                      "variable": "variable"
+                    }
+                  ],
+                  "data-_gt": {
+                    "id": 21
+                  }
+                }
+              },
+              {
+                "type": "h2",
+                "props": {
+                  "children": {
+                    "type": "ReactTyped",
+                    "props": {
+                      "data-_gt": {
+                        "id": 24
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 23
+                  }
+                }
+              },
+              {
+                "type": "hr",
+                "props": {
+                  "data-_gt": {
+                    "id": 25
+                  }
+                }
+              },
+              {
+                "type": "ul",
+                "props": {
+                  "children": {
+                    "id": 27,
+                    "key": "_gt_value_27",
+                    "variable": "variable"
+                  },
+                  "data-_gt": {
+                    "id": 26
+                  }
+                }
+              }
+            ],
+            "data-_gt": {
+              "id": 20
+            }
+          }
+        },
+        "data-_gt": {
+          "id": 19
+        }
+      }
+    },
+    {
+      "type": "p",
+      "props": {
+        "children": {
+          "type": "AnchorLink",
+          "props": {
+            "children": {
+              "type": "i",
+              "props": {
+                "data-_gt": {
+                  "id": 30
+                }
+              }
+            },
+            "data-_gt": {
+              "id": 29
+            }
+          }
+        },
+        "data-_gt": {
+          "id": 28
+        }
+      }
+    }
+  ],
+  "resume": [
+    {
+      "type": "div",
+      "props": {
+        "children": [
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "type": "h1",
+                "props": {
+                  "children": {
+                    "type": "span",
+                    "props": {
+                      "children": "教育背景",
+                      "data-_gt": {
+                        "id": 4
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 3
+                  }
+                }
+              },
+              "data-_gt": {
+                "id": 2
+              }
+            }
+          },
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "type": "div",
+                "props": {
+                  "children": {
+                    "type": "div",
+                    "props": {
+                      "children": {
+                        "id": 8,
+                        "key": "_gt_value_8",
+                        "variable": "variable"
+                      },
+                      "data-_gt": {
+                        "id": 7
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 6
+                  }
+                }
+              },
+              "data-_gt": {
+                "id": 5
+              }
+            }
+          }
+        ],
+        "data-_gt": {
+          "id": 1
+        }
+      }
+    },
+    {
+      "type": "div",
+      "props": {
+        "children": [
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "type": "h1",
+                "props": {
+                  "children": {
+                    "type": "span",
+                    "props": {
+                      "children": "工作经验",
+                      "data-_gt": {
+                        "id": 12
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 11
+                  }
+                }
+              },
+              "data-_gt": {
+                "id": 10
+              }
+            }
+          },
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "id": 14,
+                "key": "_gt_value_14",
+                "variable": "variable"
+              },
+              "data-_gt": {
+                "id": 13
+              }
+            }
+          }
+        ],
+        "data-_gt": {
+          "id": 9
+        }
+      }
+    },
+    {
+      "type": "section",
+      "props": {
+        "children": {
+          "type": "div",
+          "props": {
+            "children": {
+              "type": "div",
+              "props": {
+                "children": [
+                  {
+                    "type": "h1",
+                    "props": {
+                      "children": "项目经历",
+                      "data-_gt": {
+                        "id": 18
+                      }
+                    }
+                  },
+                  {
+                    "type": "div",
+                    "props": {
+                      "children": {
+                        "id": 20,
+                        "key": "_gt_value_20",
+                        "variable": "variable"
+                      },
+                      "data-_gt": {
+                        "id": 19
+                      }
+                    }
+                  }
+                ],
+                "data-_gt": {
+                  "id": 17
+                }
+              }
+            },
+            "data-_gt": {
+              "id": 16
+            }
+          }
+        },
+        "data-_gt": {
+          "id": 15
+        }
+      }
+    },
+    {
+      "type": "div",
+      "props": {
+        "children": [
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "type": "h1",
+                "props": {
+                  "children": {
+                    "type": "span",
+                    "props": {
+                      "children": "技能特长",
+                      "data-_gt": {
+                        "id": 24
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 23
+                  }
+                }
+              },
+              "data-_gt": {
+                "id": 22
+              }
+            }
+          },
+          {
+            "type": "div",
+            "props": {
+              "children": [
+                {
+                  "type": "p",
+                  "props": {
+                    "children": {
+                      "id": 27,
+                      "key": "_gt_value_27",
+                      "variable": "variable"
+                    },
+                    "data-_gt": {
+                      "id": 26
+                    }
+                  }
+                },
+                {
+                  "type": "div",
+                  "props": {
+                    "children": {
+                      "type": "ul",
+                      "props": {
+                        "children": {
+                          "id": 30,
+                          "key": "_gt_value_30",
+                          "variable": "variable"
+                        },
+                        "data-_gt": {
+                          "id": 29
+                        }
+                      }
+                    },
+                    "data-_gt": {
+                      "id": 28
+                    }
+                  }
+                }
+              ],
+              "data-_gt": {
+                "id": 25
+              }
+            }
+          }
+        ],
+        "data-_gt": {
+          "id": 21
+        }
+      }
+    },
+    {
+      "type": "div",
+      "props": {
+        "children": [
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "type": "h1",
+                "props": {
+                  "children": {
+                    "type": "span",
+                    "props": {
+                      "children": "社团活动",
+                      "data-_gt": {
+                        "id": 34
+                      }
+                    }
+                  },
+                  "data-_gt": {
+                    "id": 33
+                  }
+                }
+              },
+              "data-_gt": {
+                "id": 32
+              }
+            }
+          },
+          {
+            "type": "div",
+            "props": {
+              "children": {
+                "id": 36,
+                "key": "_gt_value_36",
+                "variable": "variable"
+              },
+              "data-_gt": {
+                "id": 35
+              }
+            }
+          }
+        ],
+        "data-_gt": {
+          "id": 31
+        }
+      }
+    }
+  ],
+  "about-me": [
+    {
+      "type": "h2",
+      "props": {
+        "children": "关于我",
+        "data-_gt": {
+          "id": 1
+        }
+      }
+    },
+    {
+      "type": "p",
+      "props": {
+        "children": {
+          "id": 3,
+          "key": "_gt_value_3",
+          "variable": "variable"
+        },
+        "data-_gt": {
+          "id": 2
+        }
+      }
+    },
+    {
+      "type": "div",
+      "props": {
+        "children": {
+          "type": "div",
+          "props": {
+            "children": [
+              {
+                "type": "h2",
+                "props": {
+                  "children": "联系方式",
+                  "data-_gt": {
+                    "id": 6
+                  }
+                }
+              },
+              {
+                "type": "p",
+                "props": {
+                  "children": [
+                    {
+                      "type": "span",
+                      "props": {
+                        "children": {
+                          "id": 9,
+                          "key": "_gt_value_9",
+                          "variable": "variable"
+                        },
+                        "data-_gt": {
+                          "id": 8
+                        }
+                      }
+                    },
+                    {
+                      "type": "br",
+                      "props": {
+                        "data-_gt": {
+                          "id": 10
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "props": {
+                        "children": [
+                          "邮箱：",
+                          {
+                            "id": 12,
+                            "key": "_gt_value_12",
+                            "variable": "variable"
+                          }
+                        ],
+                        "data-_gt": {
+                          "id": 11
+                        }
+                      }
+                    }
+                  ],
+                  "data-_gt": {
+                    "id": 7
+                  }
+                }
+              }
+            ],
+            "data-_gt": {
+              "id": 5
+            }
+          }
+        },
+        "data-_gt": {
+          "id": 4
+        }
+      }
+    }
+  ]
+}

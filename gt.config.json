@@ -1,9 +1,13 @@
 {
-  "options": "./gt.config.json",
-  "projectId": "79daa6f6-a63a-4335-8955-4dbbf9686f7b",
-  "jsconfig": "./tsconfig.json",
-  "replace": false,
-  "inline": true,
-  "retranslate": false,
-  "baseUrl": "https://api.gtx.dev"
+  "projectId": "8397e1e4-2018-4aad-a9a5-ba1c47bbfab2",
+  "remoteCache": false,
+  "runtimeTranslations": false,
+  "defaultLocale": "en-US",
+  "locales": [
+    "fr",
+    "es",
+    "zh"
+  ],
+  "_versionId": "9c2c7d13a7189603a792386944d8d12f3e7559dcd0f4e43cdf5a4b30d1044424",
+  "localTranslations": true
 }

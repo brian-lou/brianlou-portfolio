@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,8 +14,8 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.5",
     "chroma-js": "^2.4.2",
-    "gt-next": "^4.3.1",
-    "gt-react-cli": "^1.1.16",
+    "gt-next": "^5.0.12-alpha.1",
+    "gt-next-cli": "^2.0.10",
     "next": "13.4.6",
     "react": "18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
