@@ -26,7 +26,7 @@
                   "children": {
                     "type": "li",
                     "props": {
-                      "children": "© Derechos de autor 2025 Brian Lou",
+                      "children": "© Copyright 2025 Brian Lou",
                       "data-_gt": {
                         "id": 6
                       }
@@ -43,7 +43,7 @@
                   "children": {
                     "type": "h3",
                     "props": {
-                      "children": "Creado con NextJS",
+                      "children": "NextJSで作成",
                       "data-_gt": {
                         "id": 8
                       }
@@ -98,7 +98,7 @@
           {
             "type": "a",
             "props": {
-              "children": "Mostrar navegación",
+              "children": "ナビゲーションを表示",
               "data-_gt": {
                 "id": 2
               }
@@ -107,7 +107,7 @@
           {
             "type": "a",
             "props": {
-              "children": "Ocultar navegación",
+              "children": "ナビゲーションを非表示",
               "data-_gt": {
                 "id": 3
               }
@@ -123,7 +123,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Inicio",
+                        "children": "ホーム",
                         "data-_gt": {
                           "id": 6
                         }
@@ -140,7 +140,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Acerca de",
+                        "children": "プロフィール",
                         "data-_gt": {
                           "id": 8
                         }
@@ -157,7 +157,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Educación",
+                        "children": "学歴",
                         "data-_gt": {
                           "id": 10
                         }
@@ -174,7 +174,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Experiencia Laboral",
+                        "children": "職歴",
                         "data-_gt": {
                           "id": 12
                         }
@@ -191,7 +191,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Proyectos",
+                        "children": "プロジェクト",
                         "data-_gt": {
                           "id": 14
                         }
@@ -208,7 +208,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Habilidades",
+                        "children": "スキル",
                         "data-_gt": {
                           "id": 16
                         }
@@ -225,7 +225,7 @@
                     "children": {
                       "type": "AnchorLink",
                       "props": {
-                        "children": "Actividades",
+                        "children": "活動",
                         "data-_gt": {
                           "id": 18
                         }
@@ -259,12 +259,13 @@
                 "type": "h1",
                 "props": {
                   "children": [
-                    "¡Hola! Soy ",
+                    "こんにちは！",
                     {
                       "id": 22,
                       "key": "_gt_value_22",
                       "variable": "variable"
-                    }
+                    },
+                    "です"
                   ],
                   "data-_gt": {
                     "id": 21
@@ -358,7 +359,7 @@
                   "children": {
                     "type": "span",
                     "props": {
-                      "children": "Educación",
+                      "children": "学歴",
                       "data-_gt": {
                         "id": 4
                       }
@@ -422,7 +423,7 @@
                   "children": {
                     "type": "span",
                     "props": {
-                      "children": "Experiencia Laboral",
+                      "children": "職歴",
                       "data-_gt": {
                         "id": 12
                       }
@@ -470,7 +471,7 @@
                   {
                     "type": "h1",
                     "props": {
-                      "children": "Proyectos",
+                      "children": "プロジェクト",
                       "data-_gt": {
                         "id": 18
                       }
@@ -518,7 +519,7 @@
                   "children": {
                     "type": "span",
                     "props": {
-                      "children": "Habilidades",
+                      "children": "スキル",
                       "data-_gt": {
                         "id": 24
                       }
@@ -597,7 +598,7 @@
                   "children": {
                     "type": "span",
                     "props": {
-                      "children": "Actividades",
+                      "children": "活動",
                       "data-_gt": {
                         "id": 34
                       }
@@ -637,7 +638,7 @@
     {
       "type": "h2",
       "props": {
-        "children": "Sobre Mí",
+        "children": "自己紹介",
         "data-_gt": {
           "id": 1
         }
@@ -666,7 +667,7 @@
               {
                 "type": "h2",
                 "props": {
-                  "children": "Datos de Contacto",
+                  "children": "連絡先",
                   "data-_gt": {
                     "id": 6
                   }
@@ -701,7 +702,7 @@
                       "type": "span",
                       "props": {
                         "children": [
-                          "Correo electrónico: ",
+                          "メール: ",
                           {
                             "id": 12,
                             "key": "_gt_value_12",

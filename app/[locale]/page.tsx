@@ -10,6 +10,8 @@ import { LoadingMessage } from "../../components/misc/loading";
 import { Resume } from "../../components/resume";
 import Head from "next/head";
 import { profile } from "../../utils/profileData";
+import { useLocale } from "gt-next/client";
+
 export default function Home() {
   const [profile, setProfile] = useState("");
   const [loading, setLoading] = useState(true);
@@ -26,6 +28,7 @@ export default function Home() {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
+  console.log(useLocale());
   useEffect(() => {
     if (loading) {
       fetch("api/profileinfo", {
